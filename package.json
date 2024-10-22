@@ -1,10 +1,10 @@
 {
-  "name": "my-project",
-  "source": "src/index.html",
+  "name": "HTMLCSSPRACTICE",
+  "version": "1.0.0",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "posthtml": "posthtml src/index.html -o dist/index.html"
   },
   "devDependencies": {
@@ -13,6 +13,7 @@
     "posthtml-include": "^2.0.1"
   },
   "dependencies": {
-    "my-project": "file:"
+    "HTMLCSSPRACTICE": "file:",
+    "sass": "^1.80.3"
   }
 }
